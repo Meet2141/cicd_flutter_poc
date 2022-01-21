@@ -50,6 +50,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/meetkumarshah/Documents/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -64,6 +82,18 @@
     {
       "name": "flutter_test",
       "rootUri": "file:///Users/meetkumarshah/Documents/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -88,6 +118,12 @@
     {
       "name": "path",
       "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/meetkumarshah/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -152,7 +188,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-01-21T05:55:01.328392Z",
+  "generated": "2022-01-21T06:02:46.082369Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }
