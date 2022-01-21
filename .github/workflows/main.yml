@@ -49,7 +49,7 @@ jobs:
           java-version: '12.x'
       - uses: subosito/flutter-action@v1
         with:
-          channel: 'dev'
+          flutter-version: '2.5.3'
       - run: flutter pub get
       - run: flutter clean
       - run: flutter build ios --release --no-codesign
@@ -78,6 +78,6 @@ jobs:
           appId: ${{secrets.FIREBASE_IOS_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           group: testers
-          file: Runner.ipa
+          file: cicd_poc_flutter.ipa
      
   
