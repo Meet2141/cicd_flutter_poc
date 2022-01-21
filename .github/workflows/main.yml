@@ -54,10 +54,11 @@ jobs:
       - run: flutter clean
       - run: flutter build ios --release --no-codesign
       - run: cd /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos
-      - run: mkdir -p Payload
-      - run: mv Runner.app Payload
-      - run: zip -r Runner.ipa Payload
-      - run: rm -rf Payload
+      - run: ls
+      - run: mkdir -p /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Payload
+      - run: mv /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Runner.app /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Payload
+      - run: zip -r /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Runner.ipa Payload
+      - run: rm -rf /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Payload
       - name: Upload iPA
         uses: actions/upload-artifact@master
         with:
