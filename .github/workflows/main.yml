@@ -53,6 +53,12 @@ jobs:
       - run: flutter pub get
       - run: flutter clean
       - run: flutter build ios --release --no-codesign
+      - run: mkdir -p build/ios/iphoneos/Payload
+      - run: mv build/ios/iphoneos/Runner.app build/ios/iphoneos/Payload
+      - run: mv build/ios/iphoneos/Runner.app build/ios/iphoneos/Payload
+      - run: cd build/ios/iphoneos
+      - run: zip -r Runner.ipa Payload
+      - run: rm -rf Payload
       - name: Upload iPA
         uses: actions/upload-artifact@master
         with:
@@ -78,6 +84,6 @@ jobs:
           appId: ${{secrets.FIREBASE_IOS_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           group: testers
-          file: Runner.app
+          file: Runner.ipa
      
   
