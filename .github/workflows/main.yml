@@ -53,7 +53,7 @@ jobs:
       - run: flutter pub get
       - run: flutter clean
       - run: flutter build ios --release --no-codesign
-      - run: cd build/ios/iphoneos
+      - run: cd /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos
       - run: mkdir -p Payload
       - run: mv Runner.app Payload
       - run: zip -r Runner.ipa Payload
