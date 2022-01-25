@@ -5,7 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c5a03d-da29-4352-9871-62c07080adb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/Pluginfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/cache/fastlane-plugin-firebase_app_distribution-0.3.2.gem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_action.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_add_testers_action.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_get_latest_release.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_get_udids.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_login.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/actions/firebase_app_distribution_remove_testers_action.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/client/aab_info.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/client/error_response.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/client/firebase_app_distribution_api_client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/helper/firebase_app_distribution_auth_client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/helper/firebase_app_distribution_error_message.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/helper/firebase_app_distribution_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/helper/upload_status_response.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/gems/fastlane-plugin-firebase_app_distribution-0.3.2/lib/fastlane/plugin/firebase_app_distribution/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/vendor/bundle/ruby/2.6.0/specifications/fastlane-plugin-firebase_app_distribution-0.3.2.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/fastlane/Appfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/fastlane/Fastfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/fastlane/Pluginfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/fastlane/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/fastlane/report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/fastlane/Fastfile" beforeDir="false" afterPath="$PROJECT_DIR$/android/fastlane/Fastfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/fastlane/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/android/fastlane/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/fastlane/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/fastlane/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
