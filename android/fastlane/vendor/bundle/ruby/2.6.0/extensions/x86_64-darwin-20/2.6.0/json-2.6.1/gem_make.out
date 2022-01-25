@@ -1,0 +1,13 @@
+current directory: /Users/meetkumarshah/Desktop/POC/cicd_flutter_poc/android/fastlane/vendor/bundle/ruby/2.6.0/gems/json-2.6.1/ext/json
+/Users/meetkumarshah/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/meetkumarshah/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220125-26031-1um6xwv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/meetkumarshah/Desktop/POC/cicd_flutter_poc/android/fastlane/vendor/bundle/ruby/2.6.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/meetkumarshah/Desktop/POC/cicd_flutter_poc/android/fastlane/vendor/bundle/ruby/2.6.0/gems/json-2.6.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/meetkumarshah/Desktop/POC/cicd_flutter_poc/android/fastlane/vendor/bundle/ruby/2.6.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" install
