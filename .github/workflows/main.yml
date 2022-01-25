@@ -84,6 +84,6 @@ jobs:
           appId: ${{secrets.FIREBASE_IOS_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           group: testerIos
-          file: /Users/runner/work/cicd_flutter_poc/cicd_flutter_poc/build/ios/iphoneos/Runner.ipa
+          file: build/ios/iphoneos/Runner.ipa
 
   

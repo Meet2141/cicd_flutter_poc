@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c5a03d-da29-4352-9871-62c07080adb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/Appfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/Fastfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/fastlane/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

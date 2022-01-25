@@ -1,0 +1,20 @@
+
+
+default_platform(:android)
+
+platform :android do
+    desc "Etst Meet"
+    gradle(
+        task: 'assemble',
+        build_type: 'Release'
+    )
+    lane :android_beta_app do
+        firebase_app_distribution(
+            app: "1:480820426180:android:cfad75e8f4d699d46da091",
+            testers: "jay@codetrade.io",
+            release_notes: "Fastlane testing",
+            firebase_cli_path: "/usr/local/bin/firebase",
+            apk_path: "../build/app/outputs/apk/release/app-release.apk"
+        )
+    end
+end
